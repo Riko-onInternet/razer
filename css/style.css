@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #222;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row > * {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+}
+
+.header {
+    border-bottom: 1px solid #44D62C;
+    height: 61px;
+    background: #000;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.aic {
+    align-items: center;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.jce {
+    justify-content: space-evenly;
+}
+
+.jcend {
+    text-align: end;
+}
+
+.logo {
+    height: 35px;
+}
+
+.mx-header {
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.hover-header {
+    opacity: 50%;
+}
+
+.hover-header:hover {
+    opacity: 100%;
+}
+
+.under-header {
+    height: 44px;
+    background-color: #555;
+    text-align: center;
+    margin-top: 62px;
+}
+
+.under-line-text-hover:hover {
+    text-decoration: underline;
+}
+
+.slider {
+    margin-bottom: 10px;
+}
+
+.slider img {
+    width: 100%;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.box-slider {
+    position: absolute;
+    top: 130px;
+    left: 49%;
+}
+
+.box {
+    background-color: #ff9c07;
+    width: max-content;
+    height: max-content;
+    font-size: 14px;
+    padding: 0.3em 12px;
+}
+
+.box-text-little {
+    font-size: 0.6rem;
+}
+
+.fs-14 {
+    font-size: 1.3125rem;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.mt-5 {
+    margin-top: 7px;
+}
+
+.color-black {
+    color: #000;
+}
+
+.color-white {
+    color: #fff;
+}
+
+.color-white-50 {
+    color: #fff;
+    opacity: 50%;
+}
+.color-white-50-nohover {
+    color: #fff;
+    opacity: 50%;
+}
+.color-white-50:hover {
+    opacity: 100%;
+    text-decoration: underline;
+}
+
+.ml-13 {
+    margin-left: 13px;
+}
+
+.mx-2 {
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.fw400 {
+    font-weight: 600;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.absolute {
+    position: absolute;
+    left: 38%;
+    top: 190px;
+}
+
+.absolute-2 {
+    position: absolute;
+    left: 24%;
+    top: 890px;
+}
+
+.absolute-3 {
+    position: absolute;
+    left: 32%;
+    top: 1630px;
+}
+
+.absolute-4 {
+    position: absolute;
+    left: 8%;
+    top: 2370px;
+}
+
+.absolute-5 {
+    position: absolute;
+    left: 64%;
+    top: 2370px;
+}
+
+.absolute-6 {
+    position: absolute;
+    left: 6%;
+    top: 2950px;
+}
+
+.absolute-7 {
+    position: absolute;
+    left: 59%;
+    top: 2950px;
+}
+
+.absolute-8 {
+    position: absolute;
+    left: 9%;
+    top: 3550px;
+}
+
+.absolute-9 {
+    position: absolute;
+    left: 59%;
+    top: 3550px;
+}
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.slider-1 {
+    background-image: url(../img/enkipro-lamborghini-homepage.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+}
+
+.slider-2 {
+    background-image: url(../img/deathadder-v3-pro-faker-edition-homepage.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+}
+
+.slider-3 {
+    background-image: url(../img/new-age-technology-campaign-homepage.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+}
+
+
+.title {
+    font-size: 3.25rem;
+}
+.title-4 {
+    font-size: 2.5rem;
+}
+
+.under-title {
+    font-size: 1.75rem;
+}
+
+.green {
+    color: #44d62c;
+}
+
+.single {
+    flex: 1 1 49.5%;
+}
+
+.col {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+}
+
+footer {
+    background-color: #111;
+    font-size: 12px;
+}
+
+.footer {
+    padding-top: 30px;
+}
+
+.w-footer {
+    width: 1194px;
+    height: 270px;
+    border-bottom: 1px solid #fff;
+}
+
+.pb-footer {
+    padding-bottom: .75rem;
+}
+
+.copyright {
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+}
+.copyright li {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.bgprova {
+    background-color: #44D62C;
+}
+
+.sez-copy {
+    width: 1009px;
+}
+
+.barrier {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+.message {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px;
+    background-color: #44D62C;
+    color: #222;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: default;
+    z-index: 9999;
+}
